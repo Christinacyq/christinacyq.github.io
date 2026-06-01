@@ -244,6 +244,7 @@ defaults:
       comments: true
       share: true
       related: true
+      sitemap: false
   # _pages
   - scope:
       path: ""
@@ -251,6 +252,72 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # Hide unused template pages from the generated XML sitemap
+  - scope:
+      path: "_pages/archive-layout-with-content.md"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/category-archive.html"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/collection-archive.html"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/cv-json.md"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/markdown.md"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/non-menu-page.md"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/page-archive.html"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/portfolio.html"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/tag-archive.html"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/talkmap.html"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/talks.html"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/terms.md"
+      type: pages
+    values:
+      sitemap: false
+  - scope:
+      path: "_pages/year-archive.html"
+      type: pages
+    values:
+      sitemap: false
   # _teaching
   - scope:
       path: ""
@@ -278,6 +345,7 @@ defaults:
       author_profile: true
       share: true
       comment: true
+      sitemap: false
   # _talks
   - scope:
       path: ""
@@ -286,6 +354,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+      sitemap: false
 
 
 # Sass/SCSS
