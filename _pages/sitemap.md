@@ -29,6 +29,7 @@ A curated list of the main pages on this site. An [XML sitemap]({{ base_path }}/
 {% endfor %}
 
 <h2>Portfolio</h2>
-{% for post in site.portfolio %}
+{% assign portfolio_items = site.portfolio | sort: "date" | reverse %}
+{% for post in portfolio_items %}
   {% include archive-single.html %}
 {% endfor %}
