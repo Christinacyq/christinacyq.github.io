@@ -8,6 +8,19 @@ layout: default
   {% include page__hero.html %}
 {% endif %}
 
+{% if page.cover.image %}
+  <section class="home-cover" style="background-image: linear-gradient(rgba(8, 24, 39, 0.45), rgba(8, 24, 39, 0.68)), url('{{ page.cover.image }}');">
+    <div class="home-cover__content">
+      <p class="home-cover__eyebrow">University of California, Davis</p>
+      <h1 class="home-cover__title">{{ page.cover.title | default: page.title }}</h1>
+      {% if page.cover.subtitle %}
+        <p class="home-cover__subtitle">{{ page.cover.subtitle }}</p>
+      {% endif %}
+      <a class="home-cover__scroll" href="#about">About</a>
+    </div>
+  </section>
+{% endif %}
+
 {% if page.url != "/" and site.breadcrumbs %}
   {% unless paginator %}
     {% include breadcrumbs.html %}
@@ -24,7 +37,7 @@ layout: default
     {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
 
     <div class="page__inner-wrap">
-      {% unless page.header.overlay_color or page.header.overlay_image %}
+      {% unless page.header.overlay_color or page.header.overlay_image or page.cover.image %}
         <header>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
           {% if page.read_time %}

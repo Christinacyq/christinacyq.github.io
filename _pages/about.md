@@ -2,10 +2,16 @@
 permalink: /
 title: "Yueqiao Chen"
 author_profile: true
+cover:
+  image: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/UC_Davis_Memorial_Union.jpg/1920px-UC_Davis_Memorial_Union.jpg"
+  title: "Yueqiao Chen"
+  subtitle: "Ph.D. Student in Computer Science at UC Davis"
 redirect_from:
   - /about/
   - /about.html
 ---
+
+<span id="about"></span>
 
 I am a Ph.D. student in Computer Science at the University of California, Davis, working in the Visualization and Intelligence Augmentation (VIA) Lab. My research focuses on information visualization, visual analytics, multimodal interaction, context-aware prediction, and AI-assisted analytical workflows.
 
