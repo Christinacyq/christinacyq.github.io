@@ -133,6 +133,14 @@
   font-size: $type-size-5;
 }
 
+.sidebar {
+  color: var(--global-emphasis-color);
+
+  p, li, a, i {
+    color: var(--global-emphasis-color);
+  }
+}
+
 .sidebar .author__desktop {
   display: none;
   @media screen and (min-width: 1024px) {
@@ -254,7 +262,7 @@
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
-    color: inherit;
+    color: var(--global-emphasis-color);
     font-size: $type-size-5;
     text-decoration: none;
 
