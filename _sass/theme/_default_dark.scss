@@ -2,19 +2,16 @@
    DARK THEME
    ========================================================================== */
 
-/* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-
-$background                 : #474747;
-$background-light           : mix(#fff, $background, 80%);
-$background-lighter         : mix(#fff, $background, 90%);
-$text                       : #ffffff;
-$link                       : #0ea1c5;
-$link-dark                  : mix(#000, $link, 25%);
-$link-light                 : mix(#fff, $link, 25%);
+/* Personalized dark theme: deep night blue with warm gold highlights */
+$background                 : #081827;
+$surface                    : #10243a;
+$border                     : #294866;
+$border-strong              : #3a607d;
+$text                       : #f5f0e6;
+$muted                      : #b7c4d4;
+$link                       : #8bd3e6;
+$link-hover                 : #ffbf00;
+$link-visited               : #c7a8ff;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -35,20 +32,20 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Dark theme for the site */
 html[data-theme="dark"] {
-    --global-base-color                 : #{$background};
+    --global-base-color                 : #{$surface};
     --global-bg-color                   : #{$background};
-    --global-footer-bg-color            : #{$background};
-    --global-border-color               : #{$light-gray};
-    --global-dark-border-color          : #{$background-light};
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : #{$light-gray};
+    --global-footer-bg-color            : #{mix(#000, $background, 24%)};
+    --global-border-color               : #{$border};
+    --global-dark-border-color          : #{$border-strong};
+    --global-code-background-color      : #{$surface};
+    --global-code-text-color            : #ffd66b;
+    --global-fig-caption-color          : #{$muted};
     --global-link-color                 : #{$link};
-    --global-link-color-hover           : #{$link-dark};
-    --global-link-color-visited         : #{$link-light};
+    --global-link-color-hover           : #{$link-hover};
+    --global-link-color-visited         : #{$link-visited};
     --global-masthead-link-color        : #{$text};
-    --global-masthead-link-color-hover  : #{$background-light};
+    --global-masthead-link-color-hover  : #{$link-hover};
     --global-text-color                 : #{$text};
-    --global-text-color-light           : #f3f3f3;
-    --global-thead-color                : #{$background-lighter};
+    --global-text-color-light           : #{$muted};
+    --global-thead-color                : #{mix(#fff, $surface, 8%)};
 }

@@ -2,12 +2,17 @@
    DEFAULT THEME
    ========================================================================== */
 
-/* Color codes used for the theme */
-$gray                       : #7a8288;
-$dark-gray                  : mix(#000, $gray, 40%);
-$darker-gray                : mix(#000, $gray, 60%);
-$light-gray                 : mix(#fff, $gray, 50%);
-$lighter-gray               : mix(#fff, $gray, 90%);
+/* Personalized light theme: warm academic paper with purple visualization accents */
+$ucd-blue                   : #022851;
+$ucd-gold                   : #ffbf00;
+$purple                     : #7c3aed;
+$purple-deep                : #4c1d95;
+$purple-soft                : #ede9fe;
+$background                 : #fbf7ef;
+$surface                    : #fffdf8;
+$text                       : #172033;
+$muted                      : #687385;
+$border                     : #ded2bd;
 
 /* Color codes used for the site */
 $danger-color               : #ee5f5b;
@@ -28,20 +33,20 @@ $sidebar-screen-min-width   : 1024px;
 
 /* Default light theme for the site */
 :root {
-    --global-base-color                 : #{$gray};
-    --global-bg-color                   : #fff;
-    --global-footer-bg-color            : #f2f3f3;
-    --global-border-color               : #{$lighter-gray};
-    --global-dark-border-color          : #bdc1c4;
-    --global-code-background-color      : #fafafa;
-    --global-code-text-color            : #{$darker-gray};
-    --global-fig-caption-color          : mix(#fff,  #{$dark-gray}, 25%);
-    --global-link-color                 : #52adc8;
-    --global-link-color-hover           : mix(#000, #2f7f93, 25%);
-    --global-link-color-visited         : mix(#fff, #2f7f93, 25%);  
-    --global-masthead-link-color        : #{$dark-gray};
-    --global-masthead-link-color-hover  : mix(#000, #{$gray}, 25%);    
-    --global-text-color                 : #{$dark-gray};
-    --global-text-color-light           : #{$light-gray};
-    --global-thead-color                : #{$lighter-gray};
+    --global-base-color                 : #{$ucd-blue};
+    --global-bg-color                   : #{$background};
+    --global-footer-bg-color            : #{$ucd-blue};
+    --global-border-color               : #{mix($purple, $background, 18%)};
+    --global-dark-border-color          : #{$border};
+    --global-code-background-color      : #{$surface};
+    --global-code-text-color            : #{$ucd-blue};
+    --global-fig-caption-color          : #{$muted};
+    --global-link-color                 : #{$purple};
+    --global-link-color-hover           : #{$purple-deep};
+    --global-link-color-visited         : #{mix($purple-deep, $purple, 45%)};  
+    --global-masthead-link-color        : #{$ucd-blue};
+    --global-masthead-link-color-hover  : #{$purple};    
+    --global-text-color                 : #{$text};
+    --global-text-color-light           : #{$muted};
+    --global-thead-color                : #{$purple-soft};
 }
