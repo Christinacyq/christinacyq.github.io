@@ -1,152 +1,138 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Yueqiao Chen",
+    "email": "yeqchen@ucdavis.edu",
+    "phone": "+1 (530) 760-6741",
+    "website": "https://christinacyq.github.io",
+    "summary": "Ph.D. student in Computer Science at UC Davis working on information visualization, visual analytics, context-aware prediction, and AI-assisted analytical workflows.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
+      "city": "Davis",
       "countryCode": "US",
-      "region": ""
+      "region": "California"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
-      },
-      {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "Christinacyq",
+        "url": "https://github.com/Christinacyq"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "name": "University of California, Davis",
+      "position": "Graduate Student Researcher",
+      "startDate": "2024-09-01",
+      "endDate": "",
+      "summary": "Ph.D. student researcher at the Visualization and Intelligence Augmentation (VIA) Lab."
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "name": "University of California, Davis",
+      "position": "Teaching Assistant",
+      "startDate": "2025-03-01",
+      "endDate": "",
+      "summary": "Teaching assistant for ECS 163 Information Visualization in Spring 2025 and Spring 2026."
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "name": "Xinzhongguan Intelligence Technology Co., Ltd.",
+      "position": "Software Engineer Intern",
+      "startDate": "2022-06-01",
+      "endDate": "2022-07-31",
+      "summary": "Assisted in debugging HTTP request security flaws and used tools including Postman to test vulnerable parameters and settings."
     }
   ],
-  "skills": [],
+  "education": [
+    {
+      "institution": "University of California, Davis",
+      "area": "Computer Science",
+      "studyType": "Ph.D. student",
+      "startDate": "2024-09-01",
+      "endDate": "",
+      "gpa": "3.94/4.00",
+      "courses": []
+    },
+    {
+      "institution": "Georgia Institute of Technology",
+      "area": "Computer Science",
+      "studyType": "B.Sc.",
+      "startDate": "2020-08-01",
+      "endDate": "2023-05-31",
+      "gpa": "4.00/4.00",
+      "courses": [
+        "Information Visualization",
+        "Machine Learning",
+        "Deep Learning",
+        "Natural Language Processing",
+        "Design and Analysis of Algorithms",
+        "Robotics and Perception"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "keywords": ["Python", "JavaScript", "CSS", "HTML", "Java", "C", "LaTeX", "Assembly"]
+    },
+    {
+      "name": "Frameworks and Tools",
+      "keywords": ["React", "PyTorch", "JavaFX", "NumPy", "Pandas", "Matplotlib", "Processing", "MobX", "NetworkX"]
+    },
+    {
+      "name": "Research Areas",
+      "keywords": ["Information Visualization", "AI", "Deep Learning", "Natural Language Processing", "Reinforcement Learning", "Ethics in Computing"]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "T-Foresight: Interpret Moving Strategies Based on Context-Aware Trajectory Prediction",
+      "publisher": "Visual Informatics",
+      "releaseDate": "2025-01-01",
+      "website": "https://doi.org/10.1016/j.visinf.2025.100261",
+      "summary": "Interpretable analytics workflow for context-aware trajectory prediction."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "CATF: A Manager-Worker Framework for Context-Aware Multivariate Time-Series Forecasting",
+      "publisher": "Submitted to KDD 2026",
+      "releaseDate": "2026-01-01",
+      "website": "",
+      "summary": "Manager-worker framework for context-aware multivariate time-series forecasting."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Pandora's Pixel Box: The Rise of AI Art and the Ethical Dilemma of Creativity",
+      "publisher": "2nd International Conference on Interdisciplinary Humanities and Communication Studies",
+      "releaseDate": "2023-01-01",
+      "website": "https://doi.org/10.54254/2753-7048/28/20231315",
+      "summary": "Ethical and legal challenges posed by AI-generated art."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Cascading Dynamics of Hate Speech Propagation: Unveiling Network Structures and Probability of Retweeting on Twitter",
+      "publisher": "2nd International Conference on Software Engineering and Machine Learning",
+      "releaseDate": "2024-01-01",
+      "website": "https://doi.org/10.54254/2755-2721/73/20240371",
+      "summary": "Network analysis of hate speech propagation and retweeting behavior on Twitter."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "ECS 163 Information Visualization",
+      "institution": "University of California, Davis",
+      "date": "2025-03-01",
+      "role": "Teaching Assistant",
+      "description": "Led weekly discussion sections and supported assignment design, grading, office hours, and student mentoring."
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "ECS 163 Information Visualization",
+      "institution": "University of California, Davis",
+      "date": "2026-03-01",
+      "role": "Teaching Assistant",
+      "description": "Led weekly discussion sections and supported assignment design, grading, office hours, and student mentoring."
     }
   ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "portfolio": []
 }

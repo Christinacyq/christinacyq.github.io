@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 3"
+title: "Pandora's Pixel Box: The Rise of AI Art and the Ethical Dilemma of Creativity"
 collection: publications
-category: manuscripts
-permalink: /publication/2015-10-01-paper-title-number-3
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
-date: 2015-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
-paperurl: 'http://academicpages.github.io/files/paper3.pdf'
-citation: 'Your Name, You. (2015). &quot;Paper Title Number 3.&quot; <i>Journal 1</i>. 1(3).'
+category: conferences
+permalink: /publication/pandoras-pixel-box-ai-art-ethics
+excerpt: "A review of ethical and legal challenges posed by AI-generated art."
+date: 2023-01-01
+venue: "2nd International Conference on Interdisciplinary Humanities and Communication Studies"
+paperurl: "https://doi.org/10.54254/2753-7048/28/20231315"
+citation: "Yueqiao Chen. (2023). &quot;Pandora's Pixel Box: The Rise of AI Art and the Ethical Dilemma of Creativity.&quot; <i>Lecture Notes in Education Psychology and Public Media</i>, 28, 135-143. https://doi.org/10.54254/2753-7048/28/20231315."
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This work reviews challenges posed by AI-generated content in the contemporary art scene and discusses policy recommendations for copyright and ownership issues related to AI-generated art.

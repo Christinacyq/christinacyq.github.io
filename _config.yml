@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Yueqiao Chen | PhD Student, UC Davis"
+title                    : "Yueqiao Chen | Ph.D. Student, UC Davis"
 title_separator          : "-"
 name                     : &name "Yueqiao Chen"
-description              : &description "personal description"
+description              : &description "Ph.D. student in Computer Science at UC Davis working on information visualization, visual analytics, and AI."
 url                      : https://christinacyq.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "christinacyq/christinacyq.github.io"
@@ -25,10 +25,10 @@ author:
   avatar           : "profile.png"
   name             : "Yueqiao Chen (Christina)"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Ph.D. student in Computer Science at UC Davis working on information visualization, visual analytics, and AI."
   location         : "Davis, CA"
   employer         : "University of California, Davis"
-  uri              : # URL
+  uri              : "https://github.com/Christinacyq"
   email            : "yeqchen@ucdavis.edu" 
 
   # Academic websites

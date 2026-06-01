@@ -1,14 +1,13 @@
 ---
-title: "Paper Title Number 2"
+title: "CATF: A Manager-Worker Framework for Context-Aware Multivariate Time-Series Forecasting"
 collection: publications
-category: manuscripts
-permalink: /publication/2010-10-01-paper-title-number-2
-excerpt: 'This paper is about the number 2. The number 3 is left for future work.'
-date: 2010-10-01
-venue: 'Journal 1'
-slidesurl: 'http://academicpages.github.io/files/slides2.pdf'
-paperurl: 'http://academicpages.github.io/files/paper2.pdf'
-citation: 'Your Name, You. (2010). &quot;Paper Title Number 2.&quot; <i>Journal 1</i>. 1(2).'
+category: conferences
+permalink: /publication/catf-context-aware-time-series-forecasting
+excerpt: "A manager-worker framework for context-aware multivariate time-series forecasting."
+date: 2026-01-01
+venue: "Submitting to BIG DATA 2026"
+status: "Submitted to BIG DATA 2026"
+citation: "Yueqiao Chen, Himanshu Nimonkar, Dongyu Liu. &quot;CATF: A Manager-Worker Framework for Context-Aware Multivariate Time-Series Forecasting.&quot; Submitting to KDD 2026."
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+This work proposes a manager-worker framework for context-aware predictions, implements it as a Context-Aware Time-series Prediction Model, and evaluates it against baseline models on trajectory and time-series prediction tasks.
