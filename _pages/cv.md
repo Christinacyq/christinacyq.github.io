@@ -75,6 +75,7 @@ Work Experience
 - Teaching Assistant, UC Davis, Spring 2025 and Spring 2026.
   - Led weekly discussion sections for ECS 163 Information Visualization.
   - Supported assignment design, grading, office hours, and student mentoring.
+- Research Assistant, Visualization and Intelligence Augmentation (VIA) Lab, University of California, Davis, Oct 2023 - May 2024.
 - Software Engineer Intern, Xinzhongguan Intelligence Technology Co., Ltd., Jun 2022 - Jul 2022.
   - Assisted in debugging critical HTTP request security flaws.
   - Used tools including Postman to test parameters and settings that could compromise security.
