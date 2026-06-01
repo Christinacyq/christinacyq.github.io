@@ -289,11 +289,6 @@ defaults:
     values:
       sitemap: false
   - scope:
-      path: "_pages/portfolio.html"
-      type: pages
-    values:
-      sitemap: false
-  - scope:
       path: "_pages/tag-archive.html"
       type: pages
     values:
@@ -345,7 +340,6 @@ defaults:
       author_profile: true
       share: true
       comment: true
-      sitemap: false
   # _talks
   - scope:
       path: ""

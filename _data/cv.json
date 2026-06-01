@@ -141,5 +141,48 @@
       "description": "Led weekly discussion sections and supported assignment design, grading, office hours, and student mentoring."
     }
   ],
-  "portfolio": []
+  "portfolio": [
+    {
+      "name": "CAVA: Context-aware Multimodal Intent Inference Benchmark",
+      "category": "Visual Analytics",
+      "date": "",
+      "url": "/portfolio/cava-context-aware-intent-inference/",
+      "description": "A benchmark dataset and task formulation for intent inference in time-series visual analytics."
+    },
+    {
+      "name": "Natural Language and Sketch Querying for Time-Series Patterns",
+      "category": "Multimodal Interaction",
+      "date": "",
+      "url": "/portfolio/natural-language-sketch-time-series-querying/",
+      "description": "A visual analytics system that combines natural language and sketch input for time-series querying."
+    },
+    {
+      "name": "T-Foresight: Context-aware Trajectory Prediction",
+      "category": "Interpretable Prediction",
+      "date": "",
+      "url": "/portfolio/t-foresight-trajectory-prediction/",
+      "description": "An interpretable visual analytics workflow for context-aware trajectory prediction."
+    },
+    {
+      "name": "Intelligent Tutoring System",
+      "category": "Natural Language Processing",
+      "date": "",
+      "url": "/portfolio/intelligent-tutoring-system/",
+      "description": "A question answering, recommendation, and textbook summarization system for course support."
+    },
+    {
+      "name": "Swimming Sonification",
+      "category": "Human-Computer Interaction",
+      "date": "",
+      "url": "/portfolio/swimming-sonification/",
+      "description": "A real-time audio feedback system for swimming stroke technique and safety awareness."
+    },
+    {
+      "name": "Intelligent Pacman AI",
+      "category": "Reinforcement Learning",
+      "date": "",
+      "url": "/portfolio/intelligent-pacman-ai/",
+      "description": "A reinforcement learning agent trained to play Pacman with path optimization strategies."
+    }
+  ]
 }

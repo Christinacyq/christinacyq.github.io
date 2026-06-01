@@ -1,7 +1,8 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "CAVA: Context-aware Multimodal Intent Inference Benchmark"
+excerpt: "A benchmark dataset and task formulation for intent inference in time-series visual analytics."
 collection: portfolio
+permalink: /portfolio/cava-context-aware-intent-inference/
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+CAVA is a benchmark for context-aware multimodal intent inference in time-series visual analytics. The project formulates intent inference as a benchmark task, builds a dataset from real-world and synthesized analytical scenarios, and evaluates LLM-based inference under different context settings.
