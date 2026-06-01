@@ -36,6 +36,7 @@
 
 .page__title {
   margin-top: 0;
+  color: var(--global-emphasis-color);
   line-height: 1;
 
   & + .page__meta {
@@ -49,6 +50,10 @@
 }
 
 .page__content {
+
+  h1, h2, h3 {
+    color: var(--global-emphasis-color);
+  }
 
   h2 {
     padding-bottom: 0.5em;
@@ -88,6 +93,10 @@
     margin-top: 1em;
     font-family: $sans-serif;
     font-weight: bold;
+  }
+
+  strong {
+    color: var(--global-emphasis-color);
   }
 
   dd {

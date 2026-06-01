@@ -28,7 +28,7 @@ author:
   bio              : "Ph.D. student in Computer Science at UC Davis working on information visualization, visual analytics, and AI."
   location         : "Davis, CA"
   employer         : "University of California, Davis"
-  uri              : "https://github.com/Christinacyq"
+  uri              : # URL
   email            : "yeqchen@ucdavis.edu" 
 
   # Academic websites

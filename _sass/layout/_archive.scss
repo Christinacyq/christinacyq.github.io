@@ -41,7 +41,12 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
+  color: var(--global-emphasis-color);
   font-family: $sans-serif-narrow;
+
+  a {
+    color: var(--global-emphasis-color);
+  }
 
   a + a {
     opacity: 0.5;
